@@ -28,7 +28,7 @@
     "eslint": "^9",
     "eslint-config-next": "15.5.3",
     "eslint-plugin-storybook": "9.1.7",
-    "storybook": "9.1.7",
+    "storybook": "^9.1.7",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
