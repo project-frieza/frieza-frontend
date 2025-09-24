@@ -14,16 +14,10 @@ Frontend project using React, Next.js. Features to be added soon.
 
    ```shell
    cd frieza-frontend>
-   npm install
-   ```
-
-3. Install dependencies (please note we're using Yarn and not npm):
-
-   ```shell
    yarn
    ```
 
-4. Run development server
+3. Run development server
    ```shell
    yarn dev
    ```
