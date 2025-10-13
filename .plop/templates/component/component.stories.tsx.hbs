@@ -1,0 +1,24 @@
+import type { Meta, StoryObj } from "@storybook/react";
+
+import {{pascalCase name}} from "./{{pascalCase name}}";
+import { mockData } from "./{{pascalCase name}}.mock";
+import { {{pascalCase name}}Params } from "./{{pascalCase name}}.interface";
+
+const meta: Meta<typeof {{pascalCase name}}> = {
+  title: "Components/{{pascalCase category}}/{{pascalCase name}}",
+  component: {{pascalCase name}},
+  parameters: {
+    layout: "fullscreen centered",
+  },
+  tags: ["autodocs"],
+  argTypes: {},
+};
+
+export default meta;
+type Story = StoryObj<typeof {{pascalCase name}}>;
+
+export const Default: Story = {
+  args: {
+    title: mockData.title,
+  } as {{pascalCase name}}Params,
+};

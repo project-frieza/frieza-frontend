@@ -1,0 +1,12 @@
+import { render, screen } from "@testing-library/react";
+import "@testing-library/jest-dom";
+
+import {{ pascalCase name }} from "./{{ pascalCase name }}";
+import { mockData } from "./{{ pascalCase name }}.mock";
+
+describe("{{ pascalCase name }}", () => {
+  it("renders the {{ pascalCase name }} correctly", () => {
+    render(<{{pascalCase name}} title={mockData.title} />);
+    expect(screen.getByText("{{pascalCase name}} component")).toBeInTheDocument();
+  });
+});

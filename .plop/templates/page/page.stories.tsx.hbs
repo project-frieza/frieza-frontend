@@ -1,0 +1,16 @@
+import type { Meta, StoryObj } from "@storybook/react";
+
+import {{pascalCase name}}Page from "./page";
+
+const meta: Meta<typeof {{pascalCase name}}Page> = {
+  title: "Pages/{{pascalCase name}}",
+  component: {{pascalCase name}}Page,
+  parameters: {
+    layout: "fullscreen centered",
+  },
+};
+
+export default meta;
+type Story = StoryObj<typeof {{pascalCase name}}Page>;
+
+export const Default: Story = {};
