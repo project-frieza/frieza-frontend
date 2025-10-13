@@ -18,32 +18,32 @@ export default function (plop) {
     actions: [
       {
         type: "add",
-        path: "../src/components/{{category}}/{{pascalCase name}}.tsx",
+        path: "../src/components/{{category}}/{{pascalCase name}}/{{pascalCase name}}.tsx",
         templateFile: "templates/component/component.tsx.hbs",
       },
       {
         type: "add",
-        path: "../src/components/{{category}}/{{pascalCase name}}.stories.tsx",
+        path: "../src/components/{{category}}/{{pascalCase name}}/{{pascalCase name}}.stories.tsx",
         templateFile: "templates/component/component.stories.tsx.hbs",
       },
       {
         type: "add",
-        path: "../src/components/{{category}}/{{pascalCase name}}.test.tsx",
+        path: "../src/components/{{category}}/{{pascalCase name}}/{{pascalCase name}}.test.tsx",
         templateFile: "templates/component/component.test.tsx.hbs",
       },
       {
         type: "add",
-        path: "../src/components/{{category}}/{{pascalCase name}}.interface.ts",
+        path: "../src/components/{{category}}/{{pascalCase name}}/{{pascalCase name}}.interface.ts",
         templateFile: "templates/component/component.interface.ts.hbs",
       },
       {
         type: "add",
-        path: "../src/components/{{category}}/{{pascalCase name}}.mock.ts",
+        path: "../src/components/{{category}}/{{pascalCase name}}/{{pascalCase name}}.mock.ts",
         templateFile: "templates/component/component.mock.ts.hbs",
       },
       {
         type: "add",
-        path: "../src/components/{{category}}/index.ts",
+        path: "../src/components/{{category}}/{{pascalCase name}}/index.ts",
         templateFile: "templates/component/index.ts.hbs",
       },
     ],
