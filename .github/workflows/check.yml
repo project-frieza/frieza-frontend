@@ -30,8 +30,8 @@ jobs:
       - name: Run tests
         run: yarn test
 
-  build_and_analyze:
-    name: Build & Analyze Bundle Sizes
+  build:
+    name: Build
     runs-on: ubuntu-latest
     steps:
       - name: Check out Git repository
@@ -64,9 +64,3 @@ jobs:
 
       - name: Run build
         run: yarn build
-
-      - name: Analyze bundle sizes
-        if: github.actor != 'dependabot[bot]' && github.actor != 'dependabot-preview[bot]'
-        uses: transferwise/actions-next-bundle-analyzer@v2
-        with:
-          comment-strategy: "always"
